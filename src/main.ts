@@ -10,7 +10,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>teuberes.com</h1>
 
     <div class="read-the-docs">
-      <p>Beberapa hari lagi saya akan sharing pengalaman dalam merenovasi rumah di Griya Family IV</p>
+      <!--<p>Beberapa hari lagi saya akan sharing pengalaman dalam merenovasi rumah di Griya Family IV</p>-->
+      <p>Griya Family IV
+      B1-6</p>
     </div>
   </div>
 `
