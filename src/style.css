@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 5.2em;
   line-height: 1.1;
 }
 
@@ -61,7 +61,9 @@ h1 {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #111;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 20px white;
 }
 
 button {
@@ -102,4 +104,23 @@ img.lunas {
   max-width: 50%;
   /* top: 45%; */
   /* right: 35%; */
+}
+
+body {
+  background: lightgrey;
+  background-size: cover;
+  background-image: url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1400.jpg");
+  background-image: image-set(
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1397.jpg") 1397w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1325.jpg") 1325w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1138.jpg") 1138w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1127.jpg") 1127w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_1040.jpg") 1040w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_950.jpg") 950w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_950.jpg") 950w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_756.jpg") 756w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_632.jpg") 632w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_468.jpg") 468w
+    url("blank-concrete-white-wall-texture-background_1_ehgx32_c_scale,w_200.jpg") 200w
+  );
 }
